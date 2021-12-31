@@ -1,34 +1,41 @@
-# API Rest using Java Web with SpringBoot
+# :star: API Rest using Java Web with SpringBoot
 
-API REST de usuários e departamentos, com os seguintes casos de uso:
+:information_source: Exploring the relationship between users and departments.
 
-- Buscar todos usuários -> /users
-- Buscar um usuário pelo seu id -> /users/{id} 
-- Inserir um novo usuário -> /users
+- Scroll down for demonstrations
 
-Dependências
+## Endpoints 
+- /users -> (post) Save a new user
+- /users/{id} -> Search a user by their id
+- /users -> (get) Search all users
+
+## Dependencies
 - Spring Data JPA
 - Spring Web
 - H2 Database
 
-Ferramentas
-- Eclipse
-- Insomnia 
+## Tools
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
-Passos da aula
-- Criar o projeto
-- Implementar o modelo de domínio
-- Mapeamento objeto-relacional com JPA
-- Configurar o banco de dados H2
-- Criar os endpoints da API REST
+Class steps
+- Create the project with [Spring Initializr] :white_check_mark:
+- Implement the domain model :white_check_mark:
+- Object-relational mapping with JPA :white_check_mark:
+- Configure the H2 database :white_check_mark:
+- Create the endpoints da API REST :white_check_mark:
 
 ## Demonstrations 
 
-- Inserir um novo usuário
-![Demo: 'Inserir um novo usuário'](imagensDemo/01.newUser.png) 
+- Save a new user
+![Demo: 'Save a new user'](imagensDemo/01.newUser.png) 
 
-- Listar usuários
-![Demo: 'Listar usuários'](imagensDemo/02.Users.png)
+- Search a user by their id
+![Demo: 'Search a user by their id'](imagensDemo/03.User.png)
 
-- Buscar usuário
-![Demo: 'Buscar usuário'](imagensDemo/03.User.png)
+- Search all users
+![Demo: 'Search all users'](imagensDemo/02.Users.png)
+
+* Java v11
+
+[Spring Initializr]: https://start.spring.io
