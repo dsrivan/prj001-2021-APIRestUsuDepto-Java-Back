@@ -21,3 +21,14 @@ Passos da aula
 - Mapeamento objeto-relacional com JPA
 - Configurar o banco de dados H2
 - Criar os endpoints da API REST
+
+## Demonstrations 
+
+- Inserir um novo usuário
+![Demo: 'Inserir um novo usuário'](imagensDemo/01.newUser.png) 
+
+- Listar usuários
+![Demo: 'Listar usuários'](imagensDemo/02.Users.png)
+
+- Buscar usuário
+![Demo: 'Buscar usuário'](imagensDemo/03.User.png)
