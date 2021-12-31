@@ -1,5 +1,6 @@
 package br.com.dsrivan.usuariodepartamento.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,22 +16,21 @@ public class Department {
 	private Long id;
 	private String name;
 	
-	public Department() {
+	public Department() {		
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
-
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	public String getNome() {
+	public String getName() {
 		return name;
 	}
-
-	public void setNome(String nome) {
-		this.name = nome;
-	}	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
 }

@@ -22,7 +22,7 @@ public class User {
 	@JoinColumn(name = "department_id")
 	private Department department;
 	
-	public User() {
+	public User() {		
 	}
 
 	public Long getId() {
@@ -33,12 +33,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getNome() {
+	public String getName() {
 		return name;
 	}
 
-	public void setNome(String nome) {
-		this.name = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getEmail() {
@@ -55,5 +55,7 @@ public class User {
 
 	public void setDepartment(Department department) {
 		this.department = department;
-	}	
+	}
+	
+	
 }
