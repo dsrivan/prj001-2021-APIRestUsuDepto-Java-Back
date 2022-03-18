@@ -5,9 +5,9 @@
 - Scroll down for demonstrations
 
 ## Endpoints 
+- /users -> (get) Search all users
 - /users -> (post) Save a new user
 - /users/{id} -> Search a user by their id
-- /users -> (get) Search all users
 
 ## Dependencies
 - Spring Data JPA
